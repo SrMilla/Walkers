@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -4104841611933213}
   m_Layer: 0
   m_Name: Jefe enemigo
-  m_TagString: Untagged
+  m_TagString: JefeEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,5 +123,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d381f642532aecc4db666e5c451fc68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ListaMonedasSelf: []
+  ListaEnemigosSelf: []
   ListaMonedasDistancia: []
+  ListaEnemigosDistancia: []
   mundo: {fileID: 0}
+  user: 0
+  ia: 0

@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8187570655473007271}
   - component: {fileID: 8671563544872770712}
   - component: {fileID: 1256531664364366661}
-  - component: {fileID: 1068894965939187092}
   - component: {fileID: 8825082114871973185}
+  - component: {fileID: -1992121038248616358}
   m_Layer: 0
   m_Name: Minions aliado
   m_TagString: MinionAliado
@@ -112,20 +112,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1068894965939187092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8465187162995567235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5e48584013e71548a8cb65ea0ddbb39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  revote: 50
-  speed: 12.5
 --- !u!135 &8825082114871973185
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -139,3 +125,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-1992121038248616358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465187162995567235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd28231f044b714b87b1a3753a32c51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  revote: 0
+  speed: 10
